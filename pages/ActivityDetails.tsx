@@ -25,7 +25,7 @@ const ActivityDetails: React.FC = () => {
           </div>
           <div className="hidden md:flex flex-1 justify-center gap-8">
             <div className="flex items-center gap-9">
-              <button onClick={() => navigate('/')} className="text-neutral-800 dark:text-neutral-200 text-sm font-medium leading-normal">Home</button>
+              <button onClick={() => navigate('/explore')} className="text-neutral-800 dark:text-neutral-200 text-sm font-medium leading-normal">Home</button>
               <button onClick={() => navigate('/explore')} className="text-primary font-bold text-sm leading-normal">Explore</button>
               <button className="text-neutral-800 dark:text-neutral-200 text-sm font-medium leading-normal">My Activities</button>
               <button className="text-neutral-800 dark:text-neutral-200 text-sm font-medium leading-normal">Messages</button>
