@@ -1,0 +1,7 @@
+{
+  "name": "Ficara",
+  "description": "A social activity discovery platform to connect people through local events and hobbies.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
